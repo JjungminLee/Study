@@ -150,6 +150,8 @@ class CaptorTest {
 ## inject Mock
 
 - 의존성 주입을 @Mock이나 @Spy로 생성된 mock객체를 자동으로 주입해주는 어노테이션
+- 예를 들어 service단을 테스트 하는 중이면
+  - Service는 @InjectMock하고, Repository는 @Mock을 한다!
 
 ## Verify
 
